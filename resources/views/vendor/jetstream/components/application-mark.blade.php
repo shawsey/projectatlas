@@ -1,0 +1,1 @@
+<x-forkawesome-pencil-square-o class="w-10 h-10" style="color:#6875f5" />
