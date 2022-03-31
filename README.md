@@ -1,4 +1,4 @@
-<p align="center"><a href="#" target="_blank"><img src="https://imgur.com/a/iE5R8xh" width="400"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="https://imgur.com/2sAMGxe" width="400"></a></p>
 
 
 ## About Project Atlas 
