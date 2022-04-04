@@ -3,7 +3,8 @@
 
 ## About Project Atlas 
 
-Todo! - Add content on what this project is and it's various utilities and goals.
+Project Atlas is a web application that promotes the growth of user's artistic skills through gameified elements of submitting your artwork, completing challenges, and earning seasonal submission rewards. All users are encouraged to submit their artwork every day as long as they can! 
+
 
 ## A TALL task at hand: Tailwind CSS, AlpineJS, Laravel Jetstream, and Livewire is used in Project Atlas's bones.
 
