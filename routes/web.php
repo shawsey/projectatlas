@@ -13,9 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/// Route for Dashboard page loaded in at site root.
 Route::get('/', function () {
     return view('welcome');
 });
+
+/// Route for submitting an image to the daily posts page.
+Route::get('/submit',[ImageUploadController::class,'addImage'])->name('images.add');
+/// Route for storing an image.
+Route::post('/store-submission',[ImageUploadController::class,'storeImage'])->name('images.store');
+/// Route for viewing an image that is submitted.
+Route::get('/view-submission',[ImageUploadController::class,'viewImage'])->name('images.view');
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
